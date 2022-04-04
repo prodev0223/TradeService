@@ -1,0 +1,7 @@
+ccxt
+pysocks
+mongoengine
+pandas
+flask
+flask-mongoengine
+waitress

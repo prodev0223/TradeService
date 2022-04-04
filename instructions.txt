@@ -1,0 +1,33 @@
+User Avatar
+ Steps for setting up the project:
+
+1- Install latest python in Windows (recommended 3.9)
+make sure you check the 'Add to PATH' in the installation
+also install it for all users (not just administrator)
+also at the end click to remove PATH limit
+
+2- Install MongoDB Community Edition
+https://www.mongodb.com/try/download/community?tck=docs_server
+
+
+follow the wizard and make sure you install it as a service
+
+
+3-Install MongoDB Shell
+https://www.mongodb.com/try/download/shell
+
+
+follow the wizard
+
+
+4- extract 3 folders TradeService to your desktop
+
+
+5- Go inside folder and hold down shift key right click on folder and click 'Open Powershell here'
+
+6- type this command:
+
+pip install -r requirements.txt
+
+
+7- Place your *.ini files inside the TradeService/bots folder (eg. 1.ini 2.ini ....); keys in keys.csv; proxies in proxies.csv
